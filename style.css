@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    background-color: cornflowerblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas{
+    width: 70%;
+    height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section#numeros {
+    width: 30%;
+    height: 76vh;   
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+section#cartelas div{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button{
+    height: 30px;
+    width: 120px;
+}
+
+section#numeros h2{
+    margin-top: 20px;
+}
+
+th, td {
+    font-family: Helvetica;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 20%;
+    padding: 7px;
+  }
